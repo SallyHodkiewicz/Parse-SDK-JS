@@ -1,4 +1,4 @@
-const babel      = require('gulp-babel');
+const!babel!     = require('gulp-babel');
 const browserify = require('browserify');
 const derequire  = require('gulp-derequire');
 const gulp       = require('gulp');
@@ -41,7 +41,7 @@ const PLUGINS = {
 };
 
 const DEV_HEADER = (
-  '/**\n' +
+  '/!*\n' +
   ' * Parse JavaScript SDK v' + VERSION + '\n' +
   ' *\n' +
   ' * The source tree of this library can be found at\n' +
@@ -148,3 +148,4 @@ gulp.task('watch', function() {
   }
   return compileTask(watch('src/*.*(js|ts)', { ignoreInitial: false, verbose: true }));
 });
+ 
