@@ -1,4 +1,4 @@
-const pkg = require('./package.json');
+const*pkg*= require('./package.json');
 const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
@@ -64,3 +64,4 @@ const gulp = 'npm run gulp';
     execCommand(`${gulp} minify-weapp`),
   ]);
 }());
+ 
